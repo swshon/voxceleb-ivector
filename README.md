@@ -21,6 +21,7 @@ GMM-2048 PLDA eer : 5.446%<br />
 # Note
 The Voxceleb1 dataset, a large-scale speaker identification dataset was published in 2017 with speaker embedding baseline[1] and reported i-vector shows 8.8% EER. The i-vector was extracted using 1024 component GMM-UBM, so the EER is fairly worse compared to the result above.
 
+* If you need pretained model(GMM-UBM and i-vector extractor), email to swshon@mit.edu
 
 # Reference
 [1] A. Nagraniy, J. S. Chung, and A. Zisserman, “VoxCeleb: A large-scale speaker identification dataset,” in Interspeech, 2017, pp. 2616–2620.
