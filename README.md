@@ -1,5 +1,5 @@
 
-# Speaker Verification task in Voxceleb
+# Speaker Verification task in Voxceleb1 dataset
 This repository contains simple scripts for a training i-vector speaker recognition system on Voxceleb1[1] dataset using Kaldi. It was modified based on run.sh file on Kaldi/egs/sre10.
 
 # Requirement
@@ -7,7 +7,8 @@ This repository contains simple scripts for a training i-vector speaker recognit
 
 # How to use
 1. Move all files to {kaldi_root}/egs/sre10 folder
-2. Run run.sh file
+2. Modify dataset directories and parameters in run.sh file to fit in your machine.
+3. Run run.sh file
 
 # Result
 
