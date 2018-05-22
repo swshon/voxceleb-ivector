@@ -16,7 +16,7 @@ num_components=2048 # Larger than this doesn't make much of a difference.
 
 if [ $stage -le 0 ]; then
 # Preparing dataset folder voxceleb1. The voxceleb1 folder should have subdir voxceleb1_wav which contain wav files.
-./local_voxceleb1/make_voxceleb1_sv.pl /data/sls/scratch/swshon/dataset/voxceleb1/ data
+./local/make_voxceleb1_sv.pl /data/sls/scratch/swshon/dataset/voxceleb1/ data
 
 # Extract speaker recogntion features.
 steps/make_mfcc.sh --mfcc-config conf/mfcc.conf --nj 100 --cmd "$train_cmd" \
